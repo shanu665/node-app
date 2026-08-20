@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.send(`
-    <h1>🚀 Node.js Deployment Successful!</h1>
+    <h1>🚀 Node.js shanu Deployment Successful!</h1>
     <p>Running inside Docker + AWS ECS</p>
   `);
 });
